@@ -15,8 +15,8 @@ import requests
 
 # Set Your Bot Token gay
 TOKEN = 'YOUR_BOT_TOKEN'
-RAM_LIMIT = '2g' #Set Your Own Ram How Much You Want To Give Your Users
-SERVER_LIMIT = 2 #you can change it!
+RAM_LIMIT = '8g' #Set Your Own Ram How Much You Want To Give Your Users
+SERVER_LIMIT = 1 #you can change it!
 database_file = 'database.txt'
 
 intents = discord.Intents.default()
@@ -84,7 +84,7 @@ async def capture_ssh_session_line(process):
 user_credits = {}
 
 # Cuty.io API key (Your account key)
-API_KEY = 'ebe681f9e37ef61fcfd756396'
+API_KEY = '4966f689b1755bd68dcdc16bc'
 
 # Slash command: earnCredit
 @bot.tree.command(name="earncredit", description="Generate a URL to shorten and earn credits.")
@@ -447,7 +447,7 @@ def generate_random_port():
     return random.randint(1025, 65535)
 
 async def create_server_task(interaction):
-    await interaction.response.send_message(embed=discord.Embed(description="### Creating Instance, This takes a few seconds. Powered by [CrashOfGuys](<https://discord.com/invite/VWm8zUEQN8>)", color=0x00ff00))
+    await interaction.response.send_message(embed=discord.Embed(description="### Creating Instance, This takes a few seconds. Powered by [MangooCloud](<https://discord.com/invite/qCm4zzUYmX>)", color=0x00ff00))
     userid = str(interaction.user.id)
     if count_user_servers(userid) >= SERVER_LIMIT:
         await interaction.followup.send(embed=discord.Embed(description="```Error: Instance Limit-reached```", color=0xff0000))
@@ -457,7 +457,7 @@ async def create_server_task(interaction):
 
     try:
         container_id = subprocess.check_output([
-           "docker", "run", "-itd", "--privileged", "--hostname", "crashcloud", "--cap-add=ALL", image
+           "docker", "run", "-itd", "--privileged", "--hostname", "mangoocloudfreevps", "--cap-add=ALL", image
         ]).strip().decode('utf-8')
     except subprocess.CalledProcessError as e:
         await interaction.followup.send(embed=discord.Embed(description=f"### Error creating Docker container: {e}", color=0xff0000))
