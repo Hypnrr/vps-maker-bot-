@@ -45,11 +45,11 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| u24.04  | :white_check_mark: |
-| u22.04  | :white_check_mark: |
-| d12  | :white_check_mark:    |
-| u20.04 | :white_check_mark:  |
-| d11   | :white_check_mark:   |
+| Ubuntu-24.04  | :white_check_mark: |
+| Ubuntu-22.04  | :white_check_mark: |
+| Ubuntu-20.04 | :white_check_mark:  |
+| Debian-12  | :white_check_mark:    |
+| Debian-11   | :white_check_mark:   |
 
 ## Reporting a Vulnerability
 
