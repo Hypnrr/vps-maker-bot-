@@ -12,7 +12,6 @@ RUN apt install ufw -y && ufw allow 80 && ufw allow 443 && apt install net-tools
 RUN apt-get update && apt-get install -y \
     iproute2 \
     hostname \
-    && rm -rf /var/lib/apt/lists/*
 
 
 CMD ["bash"]
