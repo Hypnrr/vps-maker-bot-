@@ -12,19 +12,18 @@
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/BossOPMC94/CRASHCLOUD-VPS-MAKER-BOT/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/Hypnrr/vps-maker-bot-/main/install.sh)
 ```
 OR
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/BossOPMC94/CRASHCLOUD-VPS-MAKER-BOT/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/Hypnrr/vps-maker-bot-/main/install.sh)
 ```
-Join Our Discord Server to get Activation Key : https://discord.gg/r2vmR5jbXt
 
 *Paid Version Also Available!*
 
 
-# Made By Notlol95
+# Made By chearing
 # Next Update Will Fix Everything!
 
 ### ✨️ ``Features`` ✨️
@@ -34,7 +33,7 @@ Join Our Discord Server to get Activation Key : https://discord.gg/r2vmR5jbXt
 ``CAN INSTALL ALL THINGS`` REAL VPS
 ``EASY TO SETUP``
 ``NODE AUTO DELETION`` IF YOUR VPS GET FULLED STORAGE WITH ALL SSH VPS THEN IT WILL DELETE ALL VPS
-BTW IF YOU INDEED THEN DM @notlol95
+BTW IF YOU INDEED THEN DM @chearing
 ``CPU&GPU CRYPTO AUTOBAN`` IT CAN BAN ALL CRYPTO IF YOU ENABLE ``anti.sh``
 ``MORE COMMAND AND PACKAGE ADDING SOON``
 
@@ -43,8 +42,10 @@ BTW IF YOU INDEED THEN DM @notlol95
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
+
 | Version | Supported          |
 | ------- | ------------------ |
+| u24.04  | :white_check_mark: |
 | u22.04  | :white_check_mark: |
 | d12  | :white_check_mark:    |
 | u20.04 | :white_check_mark:  |
