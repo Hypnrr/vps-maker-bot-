@@ -14,7 +14,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # Verify the key
-CORRECT_KEY="crashcloud95"
+CORRECT_KEY="mangoocloud"
 read -p "Enter the setup key to proceed: " USER_KEY
 
 if [[ "$USER_KEY" != "$CORRECT_KEY" ]]; then
@@ -29,7 +29,7 @@ echo "Cloning the repository..."
 git clone "$REPO_URL" || { echo "Failed to clone repository."; exit 1; }
 
 # Navigate into the cloned directory
-cd CRASHCLOUD-VPS-MAKER-BOT || { echo "Repository folder not found."; exit 1; }
+cd vps-maker-bot- || { echo "Repository folder not found."; exit 1; }
 
 # Prompt for Bot Token
 read -p "Enter your Bot Token: " BOT_TOKEN
