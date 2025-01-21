@@ -6,12 +6,12 @@ RUN sed -i 's/^#\?\s*PermitRootLogin\s\+.*/PermitRootLogin yes/' /etc/ssh/sshd_c
 RUN echo 'root:root' | chpasswd
 RUN printf '#!/bin/sh\nexit 0' > /usr/sbin/policy-rc.d
 RUN apt-get install -y systemd systemd-sysv dbus dbus-user-session
+RUN apt install systemctl -y
 RUN printf "systemctl start systemd-logind" >> /etc/profile
 RUN apt install curl -y
 RUN apt install ufw -y && ufw allow 80 && ufw allow 443 && apt install net-tools -y
-RUN apt-get update && apt-get install -y \
-    iproute2 \
-    hostname \
+RUN apt-get update -y && apt-get install -y 
+RUN echo Welcome To MangooCloud FreeVPS
 
 
 CMD ["bash"]
